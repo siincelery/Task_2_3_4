@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fon"
+    tools:context=".Login" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cardo"
+        android:text="@string/login_now"
+        android:textColor="#1B1B1C"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#1B1B1C"
+        android:fontFamily="@font/cardo"
+        android:textSize="20sp"
+        android:text="@string/please_login_to_your_account"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cardo"
+        android:hint="@string/your_username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/Password"
+
+            android:layout_width="310dp"
+            android:fontFamily="@font/cardo"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:hint="@string/your_password"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/forgot_password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_up"
+        android:layout_width="214dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cardo"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+
+
+
+</LinearLayout>

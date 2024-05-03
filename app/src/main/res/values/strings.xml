@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Welcome_and_Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theen">Дальше</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="your_email">Your_email</string>
+    <string name="your_name">Your name</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="your_password">Your password</string>
+    <string name="your_username">Your email</string>
+    <string name="please_login_to_your_account">Please login to your account</string>
+    <string name="login_now">Login now</string>
+</resources>

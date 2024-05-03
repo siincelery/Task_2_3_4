@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:gravity="center|top"
+    android:paddingTop="60dp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:fontFamily="@font/cardo"
+        android:text="@string/create_a_new_account"
+        android:textColor="#1B1B1C"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/YourName"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cardo"
+        android:hint="@string/your_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cardo"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="15sp" />
+
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp">
+
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="310dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:fontFamily="@font/cardo"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp">
+
+
+        <EditText
+            android:id="@+id/conPasswordET"
+            android:layout_width="310dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:fontFamily="@font/cardo"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:maxLength="18"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn"
+        android:layout_width="245dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cardo"
+        android:text="@string/register"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

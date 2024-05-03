@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weather"
+    android:background="@drawable/fon"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="City name"
+        android:paddingStart="20sp"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Weather"
+        android:onClick="onGetWeather"
+        android:backgroundTint="#000"/>
+    <TextView
+        android:id="@+id/textWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather:"
+        android:textColor="#000"
+        android:layout_marginStart="50dp"/>
+    <TextView
+        android:id="@+id/textViewWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:id="@+id/textHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity:"
+        android:textColor="#000"
+        android:layout_marginStart="50dp"/>
+    <TextView
+        android:id="@+id/textViewHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000"
+        android:layout_marginStart="50dp"/>
+    <TextView
+        android:id="@+id/textSeaLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sea Level:"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/textViewSeaLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#000"/>
+    <ImageView
+        android:id="@+id/imageViewWeatherIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+
