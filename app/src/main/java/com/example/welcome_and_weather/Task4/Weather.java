@@ -1,8 +1,7 @@
-package com.example.welcome_and_weather;
+package com.example.welcome_and_weather.Task4;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -25,6 +24,8 @@ import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.bumptech.glide.Glide;
+import com.example.welcome_and_weather.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

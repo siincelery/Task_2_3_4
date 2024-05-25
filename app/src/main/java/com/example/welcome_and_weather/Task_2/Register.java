@@ -1,4 +1,4 @@
-package com.example.welcome_and_weather;
+package com.example.welcome_and_weather.Task_2;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -13,7 +13,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 
-import androidx.fragment.app.Fragment;
+import com.example.welcome_and_weather.Task_3.DBHelper;
+import com.example.welcome_and_weather.R;
 
 
 public class Register extends Fragment {

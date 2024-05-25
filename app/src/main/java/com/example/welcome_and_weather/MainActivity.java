@@ -2,18 +2,15 @@ package com.example.welcome_and_weather;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TableLayout;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.google.android.material.button.MaterialButton;
+
+import com.example.welcome_and_weather.Task_2.Login;
+import com.example.welcome_and_weather.Task_2.Register;
+import com.example.welcome_and_weather.Task_2.VPAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.welcome_and_weather;
+package com.example.welcome_and_weather.Task_2;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.welcome_and_weather.Task_3.DBHelper;
+import com.example.welcome_and_weather.R;
 
 
 public class Login extends Fragment {

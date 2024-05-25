@@ -9,7 +9,7 @@
     android:gravity="center|top"
     android:paddingTop="60dp"
     android:orientation="vertical"
-    tools:context=".Register">
+    tools:context=".Task_2.Register">
 
 
     <TextView

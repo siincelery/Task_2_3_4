@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/fon"
-    tools:context=".Login" >
+    tools:context=".Task_2.Login" >
 
     <TextView
         android:layout_width="wrap_content"

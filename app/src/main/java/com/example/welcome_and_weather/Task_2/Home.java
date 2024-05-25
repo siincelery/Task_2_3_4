@@ -1,4 +1,4 @@
-package com.example.welcome_and_weather;
+package com.example.welcome_and_weather.Task_2;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.welcome_and_weather.MainActivity;
+import com.example.welcome_and_weather.R;
+import com.example.welcome_and_weather.Task4.Weather;
 
 
 public class Home extends AppCompatActivity {

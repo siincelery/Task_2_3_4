@@ -1,4 +1,4 @@
-package com.example.welcome_and_weather;
+package com.example.welcome_and_weather.Task_2;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
